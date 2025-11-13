@@ -1,2 +1,2 @@
-# tad1
-Trabalho pratico 1 de CCF 211 - ALGORITMOS E ESTRUTURA DE DADOS I
+# tp3
+Trabalho pratico 3 de CCF 211 - ALGORITMOS E ESTRUTURA DE DADOS I
