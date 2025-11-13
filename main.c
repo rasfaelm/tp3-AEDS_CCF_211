@@ -50,22 +50,8 @@ int main(void) {
         return 1;
     }
 
-    // extrair lista para vetor para ordenar (selection sort)
-    int n = LQuantidade(&galpao.Pacotes);
-    TADPacote vetor[n];
-
-    Apontador aux = galpao.Pacotes.pPrimeiro->pProx;
-    for (int i = 0; i < n; i++, aux = aux->pProx) {
-        vetor[i] = aux->Pacote;
-    }
-
-    // recriar a lista encadeada ordenada
-    FLVazia(&galpao.Pacotes);
-    for (int i = 0; i < n; i++) {
-        LInsere(&galpao.Pacotes, &vetor[i]);
-    }
-
-    ImprimirGalpao(&galpao);
+    //imprime os pacotes dentro do galpao  
+    //ImprimirGalpao(&galpao);
 
     // entrega
     printf("\nIniciando o processo de carregamento e entregas...\n");
