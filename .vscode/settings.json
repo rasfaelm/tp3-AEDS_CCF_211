@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "drone.h": "c",
+        "string.h": "c",
+        "lista_pacotes.h": "c"
+    }
+}
