@@ -15,8 +15,8 @@ OBJ = obj
 BIN = bin
 
 # Fontes
-SRCS = $(SRC)/pacote.c $(SRC)/lista_pacotes.c $(SRC)/drone.c $(SRC)/galpao.c $(SRC)/leitura_de_arquivo.c $(SRC)/inserir_dados.c $(src)/selectionSort.c main.c
-OBJS = $(OBJ)/pacote.o $(OBJ)/lista_pacotes.o $(OBJ)/drone.o $(OBJ)/galpao.o $(OBJ)/leitura_de_arquivo.o $(OBJ)/inserir_dados.o $(OBJ)/main.o $(OBJ)/selectionSort.o
+SRCS = $(SRC)/pacote.c $(SRC)/lista_pacotes.c $(SRC)/drone.c $(SRC)/galpao.c $(SRC)/leitura_de_arquivo.c $(SRC)/inserir_dados.c $(src)/selectionSort.c $(src)/ShellSort.c main.c
+OBJS = $(OBJ)/pacote.o $(OBJ)/lista_pacotes.o $(OBJ)/drone.o $(OBJ)/galpao.o $(OBJ)/leitura_de_arquivo.o $(OBJ)/inserir_dados.o $(OBJ)/main.o $(OBJ)/selectionSort.o $(OBJ)/ShellSort.o
 
 # Executável final
 TARGET = $(BIN)/entregas.exe

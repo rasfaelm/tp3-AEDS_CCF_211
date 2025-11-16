@@ -36,7 +36,7 @@ int main(void) {
 
     printf("\n\n=== Ordenacao dos pacotes ===\n");
     printf("1 - SelectionSort\n");
-    printf("2 - X'\n");
+    printf("2 - ShellSort'\n");
     printf("Escolha a opcao: ");
     scanf("%d", &opcao);
 
@@ -44,7 +44,7 @@ int main(void) {
         //ordena pelo selection sort
         SelectionSort(&galpao.Pacotes);
     } else if (opcao == 2) {
-        
+        ShellSort(&galpao.Pacotes);
     } else {
         printf("Opcao invalida.\n");
         return 1;
