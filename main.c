@@ -1,6 +1,7 @@
 #include "header/leitura_de_arquivo.h"
 #include "header/inserir_dados.h"
 #include "header/selectionSort.h"
+#include "header/ShellSort.h"
 #include <time.h>
 #include <stdio.h>
 

@@ -8,7 +8,9 @@ Apontador *ConverteLista(TLista *lista)
 
     for (int i = 0; i < n; i++) {
         vetor[i] = p;
-        p = p->pProx;
+        Apontador next = p->pProx;
+        p ->pProx = NULL;
+        p = next;
     }
 
     return vetor;
