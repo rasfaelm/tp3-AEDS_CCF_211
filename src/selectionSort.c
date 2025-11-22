@@ -36,7 +36,7 @@ void SelectionSort(TLista *lista) {
             i->Pacote = maxNode->Pacote;
             maxNode->Pacote = temp;
 
-            movSelection += 3;  //adiciona uma movimentacao
+            movSelection += 3;  //adiciona a movimentacao
         }
     }
     end = clock(); // final contagem
